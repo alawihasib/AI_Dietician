@@ -1,0 +1,27 @@
+Users:
+Registeration
+Login
+Calorie Counter - User will enter details like height,weight and physical activity type/status .
+                - Calorie intake will be given by the system for that user
+                - Based on the calorie count number the meals will be provided to that particular user
+Diet Plan Chart - Diet chart will be shown here that was provided before
+Ask Help
+Edit Profile
+View Information
+
+Admin
+Login
+View Users
+View Questions - Answer to user questions
+Add Information about Free consultancy to nutritionist
+
+Ml Model
+Kmeans Clustering
+
+Note: Project will run on localhost
+
+
+Framework: Django
+Front End: Html,Css,Javascript
+Back End: Mysql (Database)
+Back End Language:Python

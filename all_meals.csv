@@ -1,0 +1,201 @@
+Meal Type,Food Name,Calories,Carbohydrates (g),Proteins (g),Fats (g),Vitamins (%),Hydration (%),Portion Size (g)
+Breakfast,Vegetarian Breakfast Burrito,502,81,48,24,15,17,288
+Breakfast,Egg and Veggie Breakfast Sandwich,420,53,22,31,25,11,187
+Breakfast,Cranberry Orange Chia Seed Pudding,693,31,47,30,5,21,157
+Breakfast,"Frittata with Spinach, Feta, and Cherry Tomatoes",421,78,46,36,14,37,287
+Breakfast,Sweet Potato Breakfast Skillet with Eggs,670,91,49,24,23,21,154
+Breakfast,Acai Bowl with Coconut Flakes and Chia Seeds,643,93,44,12,9,28,234
+Breakfast,Blueberry Lemon Ricotta Pancakes,420,68,37,13,29,37,113
+Breakfast,Sweet Potato Breakfast Skillet with Eggs,641,38,45,30,6,29,191
+Breakfast,Cherry Vanilla Protein Smoothie,766,89,26,21,12,24,134
+Breakfast,Mixed Berry Parfait with Greek Yogurt,605,65,37,17,8,11,233
+Breakfast,Pumpkin Spice Overnight Oats,453,33,41,38,22,35,143
+Breakfast,Pumpkin Spice Chia Pudding,561,91,23,23,20,24,299
+Breakfast,Smoked Salmon and Avocado Toast,614,91,27,30,20,22,181
+Breakfast,Whole Grain Pancakes with Fresh Berries,766,82,43,35,29,37,287
+Breakfast,Vegetable Frittata Muffins,779,70,48,24,17,10,188
+Breakfast,Zucchini and Feta Egg Muffins,726,38,43,10,16,17,162
+Breakfast,Blueberry Almond Butter Smoothie,538,37,22,12,5,36,104
+Breakfast,Whole Wheat Waffles with Maple Syrup,630,70,47,16,13,17,111
+Breakfast,Pomegranate Yogurt Parfait,432,77,42,32,28,14,198
+Breakfast,Strawberry Chia Seed Pudding,571,64,20,12,9,24,230
+Breakfast,Cherry Almond Smoothie,656,34,45,32,18,16,126
+Breakfast,Mixed Berry Smoothie with Almond Milk,792,44,45,19,17,28,162
+Breakfast,Veggie Breakfast Skillet with Tofu,751,81,48,13,9,32,242
+Breakfast,Smoked Salmon and Avocado Toast,570,58,23,22,11,36,185
+Breakfast,Smoked Salmon and Cream Cheese Bagel,683,95,29,22,29,30,233
+Breakfast,Vegetarian Breakfast Skillet,683,57,31,21,24,39,289
+Breakfast,Smoked Salmon and Cream Cheese Bagel,730,91,20,10,29,36,289
+Breakfast,Greek Yogurt with Honey and Walnuts,520,32,26,15,12,36,236
+Breakfast,Cottage Cheese with Sliced Peaches and Walnuts,717,66,20,28,14,21,251
+Breakfast,Veggie and Cheese Omelette,714,61,43,18,24,26,161
+Breakfast,Fruit Salad with Cottage Cheese,451,41,49,16,6,12,212
+Breakfast,Avocado and Hummus Breakfast Toast,500,85,36,36,21,11,229
+Breakfast,Raspberry Coconut Overnight Oats,619,83,42,14,5,10,246
+Breakfast,Coconut Mango Chia Seed Pudding,525,31,40,21,10,32,167
+Breakfast,Whole Grain Toast with Smashed Avocado and Radishes,602,85,46,26,10,33,168
+Breakfast,Veggie Breakfast Casserole,771,99,41,20,20,25,196
+Breakfast,Raspberry Almond Chia Smoothie,600,88,25,25,7,29,286
+Breakfast,Muesli with Greek Yogurt and Dried Fruits,745,96,38,29,11,29,260
+Breakfast,Smoked Salmon and Cream Cheese Bagel,527,68,37,17,5,20,284
+Breakfast,Whole Grain Pancakes with Fresh Berries,550,60,49,19,7,16,243
+Breakfast,Vegetable Egg White Frittata,745,89,36,11,5,25,239
+Breakfast,Cauliflower Breakfast Tacos with Black Beans,436,61,46,32,13,18,198
+Breakfast,Apple Cinnamon Overnight Oats,546,77,35,12,24,33,153
+Breakfast,Cherry Almond Overnight Oats,519,62,43,29,15,26,299
+Breakfast,Cherry Vanilla Greek Yogurt Parfait,503,54,48,27,18,27,293
+Breakfast,Tomato and Avocado Breakfast Sandwich,709,64,35,38,13,13,260
+Breakfast,Mixed Berry Smoothie Bowl with Coconut,467,62,33,30,20,29,227
+Breakfast,Vegetarian Breakfast Burrito,791,36,22,26,5,25,286
+Breakfast,Cherry Almond Smoothie,770,51,33,39,10,15,208
+Breakfast,Greek Yogurt with Honey and Walnuts,450,83,27,36,6,30,129
+Snack,Teriyaki Tofu,502,81,48,24,15,17,288
+Snack,Grilled Chicken with Roasted Vegetables,420,53,22,31,25,11,187
+Snack,Veggie Sushi Roll,693,31,47,30,5,21,157
+Snack,Pesto Pasta,421,78,46,36,14,37,287
+Snack,Lentil and Vegetable Soup,670,91,49,24,23,21,154
+Snack,Sesame Ginger Tofu,643,93,44,12,9,28,234
+Snack,Egg Fried Rice,420,68,37,13,29,37,113
+Snack,Baked Salmon with Dill Sauce,641,38,45,30,6,29,191
+Snack,Zucchini Noodles with Pesto,766,89,26,21,12,24,134
+Snack,Hummus Wrap,605,65,37,17,8,11,233
+Snack,Chickpea and Avocado Salad,453,33,41,38,22,35,143
+Snack,Greek Chickpea Salad,561,91,23,23,20,24,299
+Snack,Cobb Salad,614,91,27,30,20,22,181
+Snack,Ratatouille with Quinoa,766,82,43,35,29,37,287
+Snack,Rainbow Fruit Salad,779,70,48,24,17,10,188
+Snack,Shakshuka,726,38,43,10,16,17,162
+Snack,Quinoa Bowl,538,37,22,12,5,36,104
+Snack,Zucchini Noodles with Tomato Basil Sauce,630,70,47,16,13,17,111
+Snack,Quinoa Bowl,432,77,42,32,28,14,198
+Snack,Spinach and Feta Stuffed Chicken,571,64,20,12,9,24,230
+Snack,Quinoa Salad,656,34,45,32,18,16,126
+Snack,Egg Fried Rice,792,44,45,19,17,28,162
+Snack,Cauliflower Fried Rice,751,81,48,13,9,32,242
+Snack,Lentil and Vegetable Soup,570,58,23,22,11,36,185
+Snack,Avocado Toast,683,95,29,22,29,30,233
+Snack,Lentil Salad with Vinaigrette Dressing,683,57,31,21,24,39,289
+Snack,Stuffed Eggplant with Lentils and Herbs,730,91,20,10,29,36,289
+Snack,Rainbow Fruit Salad,520,32,26,15,12,36,236
+Snack,Stuffed Eggplant with Lentils and Herbs,717,66,20,28,14,21,251
+Snack,Spinach and Quinoa Stuffed Peppers,714,61,43,18,24,26,161
+Snack,Sweet Potato and Black Bean Tacos,451,41,49,16,6,12,212
+Snack,Shakshuka,500,85,36,36,21,11,229
+Snack,Veggie Burger,619,83,42,14,5,10,246
+Snack,Chickpea Curry,525,31,40,21,10,32,167
+Snack,Teriyaki Salmon with Stir-Fried Bok Choy,602,85,46,26,10,33,168
+Snack,Grilled Chicken Salad,771,99,41,20,20,25,196
+Snack,Chicken and Vegetable Stir-Fry,600,88,25,25,7,29,286
+Snack,Mixed Bean Salad,745,96,38,29,11,29,260
+Snack,Ratatouille with Quinoa,527,68,37,17,5,20,284
+Snack,Shakshuka,550,60,49,19,7,16,243
+Snack,Quinoa Bowl,745,89,36,11,5,25,239
+Snack,Lemon Garlic Shrimp with Asparagus,436,61,46,32,13,18,198
+Snack,Greek Yogurt Parfait with Fresh Berries,546,77,35,12,24,33,153
+Snack,Salmon with Asparagus,519,62,43,29,15,26,299
+Snack,Sushi Roll,503,54,48,27,18,27,293
+Snack,Turkey Sandwich,709,64,35,38,13,13,260
+Snack,Soba Noodle Salad,467,62,33,30,20,29,227
+Snack,Sesame Ginger Tofu,791,36,22,26,5,25,286
+Snack,Sesame Cucumber Salad,770,51,33,39,10,15,208
+Snack,Taco Salad,450,83,27,36,6,30,129
+Lunch,Margherita Pizza,502,81,48,24,15,17,288
+Lunch,Veggie Burger,420,53,22,31,25,11,187
+Lunch,Cobb Salad,693,31,47,30,5,21,157
+Lunch,Grilled Vegetable and Quinoa Stuffed Peppers,421,78,46,36,14,37,287
+Lunch,Grilled Tofu with Stir-Fried Veggies,670,91,49,24,23,21,154
+Lunch,Tomato Basil Soup,643,93,44,12,9,28,234
+Lunch,Veggie Sushi Roll,420,68,37,13,29,37,113
+Lunch,Mediterranean Pasta,641,38,45,30,6,29,191
+Lunch,Sesame Ginger Tofu,766,89,26,21,12,24,134
+Lunch,Chicken Shawarma,605,65,37,17,8,11,233
+Lunch,Teriyaki Tofu,453,33,41,38,22,35,143
+Lunch,Vegan Lentil Shepherds Pie,561,91,23,23,20,24,299
+Lunch,Teriyaki Tofu,614,91,27,30,20,22,181
+Lunch,Stuffed Portobello Mushrooms,766,82,43,35,29,37,287
+Lunch,Mexican Cauliflower Rice Bowl,779,70,48,24,17,10,188
+Lunch,Mediterranean Pasta,726,38,43,10,16,17,162
+Lunch,Cauliflower Steaks with Chimichurri Sauce,538,37,22,12,5,36,104
+Lunch,Veggie Sushi Roll,630,70,47,16,13,17,111
+Lunch,Stir-Fried Tofu with Broccoli,432,77,42,32,28,14,198
+Lunch,Veggie Wrap,571,64,20,12,9,24,230
+Lunch,Grilled Tofu with Stir-Fried Veggies,656,34,45,32,18,16,126
+Lunch,Grilled Vegetable and Quinoa Stuffed Peppers,792,44,45,19,17,28,162
+Lunch,Stuffed Bell Peppers with Quinoa,751,81,48,13,9,32,242
+Lunch,Grilled Salmon with Steamed Vegetables,570,58,23,22,11,36,185
+Lunch,Chicken Shawarma,683,95,29,22,29,30,233
+Lunch,Cauliflower Fried Rice,683,57,31,21,24,39,289
+Lunch,Grilled Salmon with Steamed Vegetables,730,91,20,10,29,36,289
+Lunch,Caprese Panini,520,32,26,15,12,36,236
+Lunch,Hummus Wrap,717,66,20,28,14,21,251
+Lunch,Poke Bowl,714,61,43,18,24,26,161
+Lunch,Tofu and Broccoli,451,41,49,16,6,12,212
+Lunch,Sweet Potato and Black Bean Tacos,500,85,36,36,21,11,229
+Lunch,Spinach and Quinoa Stuffed Peppers,619,83,42,14,5,10,246
+Lunch,Veggie Sushi Roll,525,31,40,21,10,32,167
+Lunch,Egg Fried Rice,602,85,46,26,10,33,168
+Lunch,Veggie Wrap,771,99,41,20,20,25,196
+Lunch,Zucchini Noodles with Marinara Sauce,600,88,25,25,7,29,286
+Lunch,Greek Salad,745,96,38,29,11,29,260
+Lunch,Egg Salad Sandwich,527,68,37,17,5,20,284
+Lunch,Buddha Bowl,550,60,49,19,7,16,243
+Lunch,Stuffed Bell Peppers with Quinoa,745,89,36,11,5,25,239
+Lunch,Sesame Cucumber Salad,436,61,46,32,13,18,198
+Lunch,Lentil Salad with Vinaigrette Dressing,546,77,35,12,24,33,153
+Lunch,Sesame Crusted Tuna,519,62,43,29,15,26,299
+Lunch,Mediterranean Quinoa Salad,503,54,48,27,18,27,293
+Lunch,Grilled Chicken Salad,709,64,35,38,13,13,260
+Lunch,Zucchini Noodles with Marinara Sauce,467,62,33,30,20,29,227
+Lunch,Spinach and Quinoa Stuffed Peppers,791,36,22,26,5,25,286
+Lunch,Greek Chickpea Salad,770,51,33,39,10,15,208
+Lunch,Mediterranean Pasta,450,83,27,36,6,30,129
+Dinner,Mediterranean Quinoa Salad with Veggies,502,81,48,24,15,17,288
+Dinner,Hummus Wrap with Veggies,420,53,22,31,25,11,187
+Dinner,Chickpea and Spinach Coconut Curry,693,31,47,30,5,21,157
+Dinner,Tomato Basil Soup with Grilled Cheese Croutons,421,78,46,36,14,37,287
+Dinner,"Caprese Stuffed Portobello Mushrooms with a Side Salad, Balsamic Vinaigrette, Fresh Basil, and a Dash of Black Pepper",670,91,49,24,23,21,154
+Dinner,Sweet Potato and Black Bean Tacos with Avocado,643,93,44,12,9,28,234
+Dinner,"Cauliflower Fried Rice with Shrimp, Edamame, Scallions, Lime, Fresh Cilantro, Toasted Sesame Seeds, and a Drizzle of Teriyaki Sauce",420,68,37,13,29,37,113
+Dinner,Teriyaki Tofu with Brown Rice and Steamed Vegetables,641,38,45,30,6,29,191
+Dinner,Black Bean and Sweet Potato Burritos with Fresh Salsa and a Side of Guacamole,766,89,26,21,12,24,134
+Dinner,"Caprese Stuffed Portobello Mushrooms with a Side Salad, Balsamic Vinaigrette, Fresh Basil, Dash of Black Pepper, and a Sprinkle of Pine Nuts",605,65,37,17,8,11,233
+Dinner,"Tuna Avocado Salad with Mixed Greens, Lemon Vinaigrette, Black Sesame Seeds, Sliced Almonds, Drizzle of Honey, and a Dash of Black Pepper",453,33,41,38,22,35,143
+Dinner,Shakshuka with Whole Grain Bread,561,91,23,23,20,24,299
+Dinner,Grilled Chicken Skewers with Greek Salad and Tzatziki Sauce,614,91,27,30,20,22,181
+Dinner,"Buddha Bowl with Brown Rice, Chickpeas, Avocado Slices, Tofu Cubes, Creamy Tahini Dressing, Sesame Seeds, and a Drizzle of Sriracha Sauce",766,82,43,35,29,37,287
+Dinner,"Miso-Glazed Tempeh with Sautéed Bok Choy, Brown Rice, Sesame Seeds, Steamed Broccoli, Sriracha, and a Sprinkle of Green Onions",779,70,48,24,17,10,188
+Dinner,"Veggie Stir-Fry with Quinoa, Cashews, Fresh Cilantro, Lime, and a Sprinkle of Red Pepper Flakes",726,38,43,10,16,17,162
+Dinner,Miso-Glazed Tempeh with Sautéed Bok Choy and Brown Rice,538,37,22,12,5,36,104
+Dinner,Chickpea Curry with Basmati Rice,630,70,47,16,13,17,111
+Dinner,"Cauliflower Fried Rice with Shrimp, Edamame, Scallions, Lime, Fresh Cilantro, Toasted Sesame Seeds, Teriyaki Sauce, and a Glass of Green Tea",432,77,42,32,28,14,198
+Dinner,"Zucchini Noodles with Tomato Sauce, Fresh Basil, Parmesan Cheese, Black Pepper, Side of Garlic Bread, Glass of Red Wine, Decadent Dark Chocolate Dessert, and a Cup of Espresso",571,64,20,12,9,24,230
+Dinner,"Miso-Glazed Tempeh with Sautéed Bok Choy, Brown Rice, Sesame Seeds, Steamed Broccoli, Sriracha, Green Onions, Drizzle of Soy Sauce, and a Side of Steamed Dumplings",656,34,45,32,18,16,126
+Dinner,Spaghetti Squash with Garlic and Olive Oil,792,44,45,19,17,28,162
+Dinner,Chickpea and Coconut Curry with Quinoa,751,81,48,13,9,32,242
+Dinner,Grilled Chicken Skewers with Greek Salad,570,58,23,22,11,36,185
+Dinner,"Black Bean and Sweet Potato Burritos with Fresh Salsa, Guacamole, and a Side of Spicy Salsa Verde",683,95,29,22,29,30,233
+Dinner,"Caprese Stuffed Portobello Mushrooms with a Side Salad, Balsamic Vinaigrette, Fresh Basil, Dash of Black Pepper, Pine Nuts, Glass of Red Wine, Dark Chocolate-Covered Strawberries, and a Plate of Cheese and Crackers",683,57,31,21,24,39,289
+Dinner,"Grilled Chicken Skewers with Greek Salad, Tzatziki Sauce, and Fresh Mint",730,91,20,10,29,36,289
+Dinner,"Chickpea and Coconut Curry with Quinoa, Cilantro, Toasted Coconut, Lime, and a Dash of Red Pepper Flakes",520,32,26,15,12,36,236
+Dinner,"Tuna Avocado Salad with Mixed Greens, Lemon Vinaigrette, Black Sesame Seeds, Sliced Almonds, Drizzle of Honey, Black Pepper, Side of Quinoa Salad, and a Chilled Glass of Iced Tea",717,66,20,28,14,21,251
+Dinner,"Chickpea and Coconut Curry with Quinoa, Cilantro, Toasted Coconut, Lime, Dash of Red Pepper Flakes, Side of Naan Bread, Refreshing Mango Lassi, and a Bowl of Fresh Tropical Fruits",714,61,43,18,24,26,161
+Dinner,Baked Salmon with Quinoa and Asparagus,451,41,49,16,6,12,212
+Dinner,Eggplant Rollatini with Quinoa and Side Salad,500,85,36,36,21,11,229
+Dinner,Veggie Stir-Fry with Quinoa and Cashews,619,83,42,14,5,10,246
+Dinner,"Sushi Burrito with Brown Rice, Avocado, Cucumber, Sesame Seeds, Spicy Sriracha Mayo, Pickled Ginger, Edamame, Miso Soup, Seaweed Salad, and a Side of Tempura Vegetables",525,31,40,21,10,32,167
+Dinner,"Eggplant Rollatini with Quinoa, Tomato Sauce, Basil, Side Salad, Balsamic Vinaigrette Dressing, and a Sprig of Fresh Parsley",602,85,46,26,10,33,168
+Dinner,"Cauliflower Fried Rice with Shrimp, Edamame, and Scallions",771,99,41,20,20,25,196
+Dinner,Tofu Stir-Fry with Broccoli and Carrots,600,88,25,25,7,29,286
+Dinner,"Cauliflower Fried Rice with Shrimp, Edamame, and Scallions",745,96,38,29,11,29,260
+Dinner,Caprese Stuffed Portobello Mushrooms with Side Salad,527,68,37,17,5,20,284
+Dinner,Taco Salad with Lean Ground Turkey,550,60,49,19,7,16,243
+Dinner,"Sushi Burrito with Brown Rice, Avocado, and Cucumber",745,89,36,11,5,25,239
+Dinner,"Buddha Bowl with Brown Rice, Chickpeas, Avocado Slices, and a Drizzle of Tahini Sauce",436,61,46,32,13,18,198
+Dinner,Vegetable Sushi Roll with Brown Rice,546,77,35,12,24,33,153
+Dinner,Sweet Potato and Black Bean Tacos with Avocado,519,62,43,29,15,26,299
+Dinner,"Sushi Burrito with Brown Rice, Avocado, Cucumber, Sesame Seeds, and a Spicy Sriracha Mayo",503,54,48,27,18,27,293
+Dinner,Caprese Stuffed Portobello Mushrooms,709,64,35,38,13,13,260
+Dinner,"Sushi Burrito with Brown Rice, Avocado, Cucumber, Sesame Seeds, Spicy Sriracha Mayo, Pickled Ginger, and a Side of Edamame",467,62,33,30,20,29,227
+Dinner,Caprese Stuffed Portobello Mushrooms with Side Salad,791,36,22,26,5,25,286
+Dinner,"Buddha Bowl with Brown Rice, Chickpeas, Avocado Slices, and a Drizzle of Tahini Sauce",770,51,33,39,10,15,208
+Dinner,Sushi Salad with Seaweed and Cucumber,450,83,27,36,6,30,129

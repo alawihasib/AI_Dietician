@@ -1,0 +1,67 @@
+{% extends 'Base.html'%}
+{% block content%}
+{% if messages %}
+
+{% for message in messages %}
+{% if message.tags %}  <script>alert("{{ message }}")</script> {% endif %}
+
+{% endfor %}
+
+{% endif %}
+{%load static%}
+<div style="background-image:  url('/media/bg1.jpg'); background-repeat:no-repeat;background-size:cover;  height:650px; width:120%;">
+
+
+
+
+<div class="container-fluid" style="padding-top: 50px;">
+	
+	<table class="table table-info table-hover table-stripped">
+		<thead>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Specialization</th>
+			<th>Qualifications</th>
+			<th>Email</th>
+			<th>Number</th>
+			<th>Gender</th>
+			<th>Years</th>
+			<th>Languages_Spoken</th>
+			<th>Consultation_Hours</th>
+			<th>Consultation_Fees</th>
+			<th>Venue</th>
+			<th>Image</th>
+		</thead>
+
+		<tbody>
+			{%for i in details%}
+			<tr>
+				<td>{{i.id}}</td>
+				<td>{{i.Name}}</td>
+				<td>{{i.Age}}</td>
+				<td>{{i.Specialization}}</td>
+				<td>{{i.Qualifications}}</td>
+				<td>{{i.Email}}</td>
+				<td>{{i.Number}}</td>
+				<td>{{i.Gender}}</td>
+				<td>{{i.Years}}</td>
+				<td>{{i.Languages_Spoken}}</td>
+				<td>{{i.Consultation_Hours}}</td>
+				<td>{{i.Consultation_Fees}}</td>
+				<td>{{i.Venue}}</td>
+				<td>
+					<img src="{{i.Image.url}}" height="150px">	
+				</td>
+			</tr>
+			{%endfor%}
+		</tbody>
+	</table>
+</div>	
+
+
+    
+
+    
+</div>
+{% endblock %}

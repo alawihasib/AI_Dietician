@@ -1,0 +1,147 @@
+{% extends 'Base.html'%}
+{% block content%}
+{% if messages %}
+
+{% for message in messages %}
+{% if message.tags %}  <script>alert("{{ message }}")</script> {% endif %}
+
+{% endfor %}
+
+{% endif %}
+{%load static%}
+<div style="background-image:  url('/media/bg1.jpg'); background-repeat:no-repeat;background-size:cover;  height:1200px; width:100%;">
+
+
+<br>
+    <div class="container" style="border: solid 2px;background-color:rgba(255,253,208,0.7);border-radius: 5px;width: 30%;">
+        <h1 style="border-bottom: solid 2px;">Add Information</h1>
+        <form method="POST" action="/Add_Information/"  enctype="multipart/form-data">
+            {%csrf_token%}
+        <div class="row">
+            <div class="mb-3 col-md-12">
+                <label for="formGroupExampleInput" class="form-label">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" name="name">
+            </div>
+            <div class="mb-3 col-md-12">
+                <label for="formGroupExampleInput" class="form-label">Age</label>
+                <input type="text" class="form-control" name="age">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-md-6">
+                <label class="form-label">Gender</label>
+                <select name="Gender" class="form-select">
+                    <option selected>Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+
+            <div class="mb-3 col-md-6">
+                <label class="form-label">Years of Experience</label>
+                <input type="number" name="years" class="form-control">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="Email" name="email" class="form-control">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-md-6">
+                <label class="form-label">Specialization</label>
+                <select name="Specialization" class="form-select">
+                    <option selected>Select</option>
+                    <option value=" weight management"> weight management</option>
+                    <option value="sports nutrition">sports nutrition</option>
+                    <option value="clinical nutrition">clinical nutrition</option>
+                </select>
+            </div>
+
+            <div class="mb-3 col-md-6">
+                <label class="form-label">Phone Number</label>
+                <input type="text" class="form-control" name="number">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-md-6">
+                <label class="form-label">Qualification(Higher)</label>
+                <input type="text" class="form-control" name="qualification">
+            </div>
+            <div class="mb-3 col-md-6">
+                <label>Languages Spoken</label>
+                <label>
+        <input type="checkbox" name="languages" value="Arabic">
+        Arabic
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="languages" value="english">
+        English
+    </label>
+    <br>
+    <label>
+        <input type="checkbox" name="languages" value="hindi">
+        Hindi
+    </label>
+    <br>        
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-md-6">
+                <label class="form-label">Consultation Hours</label>
+                <select name="hours" class="form-select"> 
+                    <option selected>Select Hours</option>
+                    <option value="12-3">12-3</option>
+                    <option value="3-6">3-6</option>
+                    <option value="6-9">6-9</option>
+                </select>
+            </div>
+
+            
+                <div class="mb-3 col-md-6">
+                     <label class="form-label">Consultations Fees</label>
+                     <input type="number" name="fees" class="form-control">
+                </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="mb-3">
+                <label class="form-label">Venue</label>
+                <input type="text" class="form-control" name="venue">
+            </div>
+        </div>
+
+        <div class="row">
+              <div class="col-md-12" >
+            
+                {% csrf_token %}
+                <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+                <p><label class="form-control" style="border:outset;cursor: pointer;" for="file" >Upload Image</label></p>
+                <p><img style="background-color: white;" name="image" id="output" height="200" width="200" /></p>
+                <input class="btn btn-primary" type="submit" name="Submit">
+               
+           
+            </div>
+        </div>
+        <br>
+         </form>
+    </div>
+
+    <br>
+</div>
+
+<script>
+var loadFile = function(event) {
+    var image = document.getElementById('output');
+    image.src = URL.createObjectURL(event.target.files[0]);
+};
+</script>
+{% endblock %}

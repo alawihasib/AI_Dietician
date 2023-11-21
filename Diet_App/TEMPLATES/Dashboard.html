@@ -1,0 +1,174 @@
+
+{% extends 'Base.html'%}
+{% block content%}
+{% if messages %}
+
+{% for message in messages %}
+{% if message.tags %}  <script>alert("{{ message }}")</script> {% endif %}
+
+{% endfor %}
+
+{% endif %}
+{%load static%}
+
+<div style="background-image:  url('/media/bg1.jpg'); background-repeat:no-repeat;background-size:cover;  height:auto; width:100%;">
+
+<style>
+	        .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.box > div { /*The > denotes only the first or immediate child will be affected*/
+  width: 500px;
+  height: auto;
+  /*border: dotted;
+*/
+  background-color: orange;
+  border-radius: 5px
+}
+
+.box > div label{
+    color: white;
+}
+
+     .box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.box1 > div { /*The > denotes only the first or immediate child will be affected*/
+  width: 1000px;
+  height: auto;
+  /*border: dotted;
+*/
+  background-color: orange;
+  border-radius: 5px
+}
+
+.box1 > div label{
+    color: white;
+}
+</style>
+
+
+
+
+<div class="box">
+    <div class="shadow-lg p-3 mb-5">
+        <div class="container">
+            <h1>Calories Calculator Result</h1>
+            <p>BMR (Basal Metabolic Rate): {{ bmr }}</p>
+            <p>Total Daily Calories: {{ total_calories }}</p>
+
+            <h2>Meal Calories:</h2>
+            <p>Breakfast: {{ meal_calories.Breakfast }}</p>
+            <p>Lunch: {{ meal_calories.Lunch }}</p>
+            <p>Snacks: {{ meal_calories.Snack }}</p>
+            <p>Dinner: {{ meal_calories.Dinner }}</p>
+
+            <h2>Nutrient Calories:</h2>
+{% for nutrient_calories in nutrient_calories_list %}
+<h3>{{ nutrient_calories.meal_type }}:</h3>
+<p>Carbohydrates: {{ nutrient_calories.carbohydrates }}</p>
+<p>Proteins: {{ nutrient_calories.protein }}</p>
+<p>Fats: {{ nutrient_calories.fats }}</p>
+<p>Vitamins: {{ nutrient_calories.vitamins }}</p>
+<p>Hydration: {{ nutrient_calories.hydration }}</p>
+{% endfor %}
+        </div>
+    </div>
+</div>
+
+
+<div class="container" style="background-color:white;">
+   <h1>Weekly Meal Plan</h1>
+
+  
+<table class="table table-info table-hover table-stripped">
+  <thead style="table-layout: revert;">
+    <th>Meal</th>
+    <th>Mon</th>
+    <th>Tues</th>
+    <th>Wed</th>
+    <th>Thurs</th>
+    <th>Fri</th>
+    <th>Sat</th>
+    <th>Sun</th>
+  </thead>
+
+  <tbody>
+    <!-- Breakfast -->
+    <tr>
+      <th scope="row">Breakfast</th>
+      {% for i in details %}
+      <td>{{ i.Food1 }}</td>
+      <td>{{ i.Food2 }}</td>
+      <td>{{ i.Food3 }}</td>
+      <td>{{ i.Food4 }}</td>
+      <td>{{ i.Food5 }}</td>
+      <td>{{ i.Food6 }}</td>
+      <td>{{ i.Food7 }}</td>
+      {% endfor %}
+    </tr>
+
+    <!-- Lunch -->
+    <tr>
+      <th scope="row">Lunch</th>
+      {% for i in data %}
+      <td>{{ i.Food1 }}</td>
+      <td>{{ i.Food2 }}</td>
+      <td>{{ i.Food3 }}</td>
+      <td>{{ i.Food4 }}</td>
+      <td>{{ i.Food5 }}</td>
+      <td>{{ i.Food6 }}</td>
+      <td>{{ i.Food7 }}</td>
+      {% endfor %}
+    </tr>
+
+    <!-- Snack -->
+    <tr>
+      <th scope="row">Snack</th>
+      {% for i in snackdata %}
+      <td>{{ i.Food1 }}</td>
+      <td>{{ i.Food2 }}</td>
+      <td>{{ i.Food3 }}</td>
+      <td>{{ i.Food4 }}</td>
+      <td>{{ i.Food5 }}</td>
+      <td>{{ i.Food6 }}</td>
+      <td>{{ i.Food7 }}</td>
+      {% endfor %}
+    </tr>
+
+    <!-- Dinner -->
+    <tr>
+      <th scope="row">Dinner</th>
+      {% for i in dinnerdata %}
+      <td>{{ i.Food1 }}</td>
+      <td>{{ i.Food2 }}</td>
+      <td>{{ i.Food3 }}</td>
+      <td>{{ i.Food4 }}</td>
+      <td>{{ i.Food5 }}</td>
+      <td>{{ i.Food6 }}</td>
+      <td>{{ i.Food7 }}</td>
+      {% endfor %}
+    </tr>
+  </tbody>
+</table>
+
+
+</div>
+
+<br>
+</div>
+
+
+    
+
+    
+
+{% endblock %}
